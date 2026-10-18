@@ -1,0 +1,6 @@
+profile,profile_fr,students,submissions,submissions_per_student_per_day,share_of_submissions_pct,valid_submission_share_pct,points_total,share_of_points_pct,avg_points_per_student,pa_yield_index_per_valid_submission
+Innovator,Innovateur,42,9285,1.21,10.9,100.0,35507,26.3,845.0,100.0
+Follower,Mouton,40,13740,1.88,16.2,100.0,27480,20.4,687.0,4.0
+Spammer,Spammeur,39,39026,5.47,45.9,33.4,26061,19.3,668.0,4.0
+Regular,Régulier,37,9523,1.41,11.2,100.0,23924,17.7,647.0,14.0
+Random,Aléatoire,42,13488,1.75,15.9,49.9,22003,16.3,524.0,81.0

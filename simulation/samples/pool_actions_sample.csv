@@ -1,0 +1,37 @@
+action_id,action_type,action_text_fr
+ACT_2871,innovation,J'ai automatisé un script de web scraping sans aucune supervision préalable.
+ACT_2905,innovation,J'ai architecturé un prototype d'impression 3D avec une interface utilisateur inédite.
+ACT_2989,innovation,J'ai breveté une base de données distribuée pour résoudre une faille critique.
+ACT_3095,innovation,J'ai prototypé une API REST sécurisée pour résoudre une faille critique.
+ACT_3200,innovation,J'ai optimisé un capteur IoT avec une interface utilisateur inédite.
+ACT_3205,innovation,J'ai conçu un script de web scraping pour le hackathon national.
+ACT_0253,routine,J'ai synthétisé la maquette Figma après les cours.
+ACT_0613,routine,J'ai annoté la présentation PowerPoint afin d'améliorer ma moyenne.
+ACT_0711,routine,J'ai révisé le rapport de projet afin d'améliorer ma moyenne.
+ACT_0822,routine,J'ai relu le TP de physique afin d'améliorer ma moyenne.
+ACT_0965,routine,J'ai structuré l'exercice de maths pendant ma pause de midi.
+ACT_1384,routine,J'ai structuré la bibliographie pendant ma pause de midi.
+ACT_2132,social,J'ai organisé une session de tutorat pour soutenir le bureau des élèves.
+ACT_2156,social,J'ai pris le temps d'écouter une collecte de fonds pour clarifier les objectifs du semestre.
+ACT_2259,social,J'ai organisé une présentation orale malgré un emploi du temps chargé.
+ACT_2432,social,J'ai organisé une médiation entre élèves pour clarifier les objectifs du semestre.
+ACT_2444,social,J'ai coordonné une médiation entre élèves sur le canal général.
+ACT_2703,social,J'ai facilité une session de tutorat pour les élèves en difficulté.
+ACT_3310,trap_anti_value,J'ai saboté le matériel de l'école par pur égoïsme.
+ACT_3339,trap_anti_value,J'ai manipulé le projet de mon binôme car je voulais être le premier.
+ACT_3355,trap_anti_value,J'ai saboté un élève en difficulté pour garder mon avantage.
+ACT_3358,trap_anti_value,J'ai saboté un élève en difficulté pour cacher mes propres erreurs.
+ACT_3365,trap_anti_value,J'ai saboté les résultats du TP pour garder mon avantage.
+ACT_3366,trap_anti_value,J'ai manipulé les résultats du TP car je voulais être le premier.
+ACT_3469,trap_rejected,J'ai piraté les serveurs du Pentagone grâce à des pouvoirs télépathiques.
+ACT_3482,trap_rejected,J'ai corrompu le gouvernement mondial avec un rayon laser géant.
+ACT_3485,trap_rejected,J'ai corrompu un porte-avions militaire grâce à des pouvoirs télépathiques.
+ACT_3486,trap_rejected,J'ai piraté un porte-avions militaire avec un rayon laser géant.
+ACT_3487,trap_rejected,J'ai volé les serveurs du Pentagone pour prouver ma supériorité absolue.
+ACT_3489,trap_rejected,J'ai piraté le campus d'une école concurrente depuis mon téléphone dans le bus.
+ACT_3385,trap_unrealistic,J'ai financé la faim dans le monde en un seul week-end.
+ACT_3421,trap_unrealistic,J'ai résolu une guerre civile en un seul week-end.
+ACT_3438,trap_unrealistic,J'ai résolu toutes les maladies rares pendant ma pause de 15 minutes.
+ACT_3441,trap_unrealistic,J'ai résolu une mission spatiale sur Mars grâce à un simple script Python.
+ACT_3447,trap_unrealistic,J'ai construit la faim dans le monde en un seul week-end.
+ACT_3459,trap_unrealistic,J'ai résolu la faim dans le monde avec l'argent de mon job d'été.

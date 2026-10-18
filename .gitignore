@@ -1,0 +1,18 @@
+# Row-level simulation logs and raw data stay in the private repository
+*.xlsx
+*.xls
+*.db
+*.sqlite
+*.pkl
+*.parquet
+
+# Secrets and local config
+.env
+*.key
+*.pem
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
