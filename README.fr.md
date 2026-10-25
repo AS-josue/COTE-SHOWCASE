@@ -30,15 +30,15 @@
 >
 > *En raison de la nature propriétaire des algorithmes psychométriques, des modèles de validation sémantique (NLP) et des équations de notation dynamique, le code source du cœur du projet est conservé dans un dépôt privé. Ce dépôt public fait office de livre blanc technique : il présente l'architecture du système, le flux de données et les mécaniques comportementales.*
 
-## ✨ Le projet en 30 secondes
+## Le projet en 30 secondes
 
 **COTE transforme la vie de campus en une aventure vivante et mesurable.**
 
 Les étudiants affrontent des défis, des rencontres, des tests pratiques et des projets imprévisibles. Un moteur d'IA lit ce qu'ils ont *réellement fait* (et non ce qu'ils prétendent) et en tire trois choses :
 
-- 📡 un **radar de compétences vivant à 11 axes** qui montre qui ils deviennent,
-- 💰 une **monnaie, les Points**, qui récompense les réalisations réelles, variées et difficiles (et rend inutile le fait de répéter la même action facile),
-- 🎖️ un **portrait fiable** de leurs soft skills, consultable par eux et par les tiers qu'ils autorisent.
+- un **radar de compétences vivant à 11 axes** qui montre qui ils deviennent,
+- une **monnaie, les Points**, qui récompense les réalisations réelles, variées et difficiles (et rend inutile le fait de répéter la même action facile),
+- un **portrait fiable** de leurs soft skills, consultable par eux et par les tiers qu'ils autorisent.
 
 **Un premier résultat de simulation :** lors d'un test de résistance avec 200 étudiants virtuels, le profil qui inonde le système d'actions a généré **46 % de toutes les soumissions mais n'a récolté que 19 % des Points**, tandis que les innovateurs, avec 11 % des soumissions, en ont récolté **26 %**. [Voir les résultats](#-le-bac-à-sable-de-simulation).
 
@@ -46,7 +46,7 @@ Les étudiants affrontent des défis, des rencontres, des tests pratiques et des
 
 ---
 
-## 🎯 Vision et problématique
+## Vision et problématique
 
 Les systèmes académiques traditionnels souffrent d'une grave **« asymétrie d'information »** : entre deux sessions d'examens, les établissements sont aveugles aux soft skills réelles, à l'engagement social et au leadership d'un étudiant. Le diplôme certifie les hard skills, mais le monde moderne exige un **« Certificat de Savoir-Être »**.
 
@@ -62,22 +62,22 @@ Les systèmes académiques traditionnels souffrent d'une grave **« asymétrie d
 | **Réputation et conduite.** Un établissement a peu de leviers hors des murs de la classe. | Un axe d'intégrité transparent : la conduite a des conséquences visibles et proportionnées. |
 | **Une identité alumni faible.** Les diplômés qui n'ont été qu'un numéro de matricule ressentent peu d'appartenance. | Un historique de réalisations qui donne à chaque étudiant, et à chaque promotion, une identité forte. |
 
-### 💥 L'idée centrale : le chaos constructif
+### L'idée centrale : le chaos constructif
 
 La vie de campus a tendance à s'installer dans la routine : mêmes salles, mêmes visages, mêmes attentes. Cette monotonie gâche discrètement le plaisir d'explorer et d'apprendre, et pousse les esprits ambitieux à se replier sur eux-mêmes.
 
 La réponse de COTE est d'injecter de l'**imprévisible**, volontairement et avec des règles :
 
-- 🎲 des **défis surprises** hors du cadre habituel du cursus
-- 🤝 des **rencontres inattendues**, avec des équipes et des binômes qui traversent les départements
-- 🧪 des **tests pratiques** où les étudiants montrent ce dont ils sont réellement capables
-- 🚀 des **projets aléatoires mais pleinement valides**, dont certains pour de vraies organisations extérieures à l'école
+- des **défis surprises** hors du cadre habituel du cursus
+- des **rencontres inattendues**, avec des équipes et des binômes qui traversent les départements
+- des **tests pratiques** où les étudiants montrent ce dont ils sont réellement capables
+- des **projets aléatoires mais pleinement valides**, dont certains pour de vraies organisations extérieures à l'école
 
 Comme les situations sont imprévisibles, l'évaluation peut être **multidisciplinaire** : non pas un examen qui mesure une compétence, mais de nombreuses situations différentes qui révèlent de nombreuses facettes d'une personne. Tout ce que l'étudiant réalise est converti en statistiques et en avantages que lui-même, et les tiers autorisés, peuvent consulter depuis l'interface du système, qui l'encourage sans cesse à développer chacune de ses aptitudes.
 
 ---
 
-## 📡 Le radar psychométrique à 11 axes
+## Le radar psychométrique à 11 axes
 
 Le cœur du profil de chaque étudiant est un graphique radar dynamique généré par la **« Skill Mapping IA »**. Son état initial (Phase 1) est calibré par un test psychométrique d'entrée basé sur le modèle **OCEAN**. Ensuite, le radar n'évolue que d'une seule façon : par **ce que l'étudiant fait**.
 
@@ -108,12 +108,12 @@ L'Éthique intégrale occupe le haut du radar, le « nord magnétique » du prof
 
 Un recruteur qui ouvrirait un profil verrait d'abord ce sommet, avant tout bloc technique. C'est voulu.
 
-### 🖼️ Aspect visuel actuel
+### Aspect visuel actuel
 
 <div align="center">
 
-<!-- 👉 Déposez votre capture dans docs/images/radar-preview.png (ou changez le chemin ci-dessous) -->
-<img src="docs/images/radar-preview.png" alt="Radar COTE : aspect visuel actuel du radar de compétences à 11 axes" width="640">
+<!-- 👉 Déposez votre capture dans docs/images/radar-preview.jpg (ou changez le chemin ci-dessous) -->
+<img src="docs/images/radar-preview.jpg" alt="Radar COTE : aspect visuel actuel du radar de compétences à 11 axes" width="640">
 
 *Le radar tel qu'il apparaît aujourd'hui dans le prototype.*
 
@@ -127,7 +127,7 @@ Un recruteur qui ouvrirait un profil verrait d'abord ce sommet, avant tout bloc 
 
 ---
 
-## 🧮 De l'action au chiffre : le moteur d'évaluation
+## De l'action au chiffre : le moteur d'évaluation
 
 Comment noter équitablement « j'ai organisé un hackathon caritatif » et « j'ai aidé un camarade », sur la même échelle, pour des centaines d'étudiants, sans que le système soit détourné ? COTE fusionne deux idées dans un **modèle hybride** :
 
@@ -198,7 +198,7 @@ flowchart TD
 
 ---
 
-## 🧩 Backend : où en sont les choses
+## Backend : où en sont les choses
 
 COTE est actuellement dans sa **phase backend**, construite comme une chaîne de modules indépendants. Voici un état des lieux honnête.
 
@@ -218,7 +218,7 @@ COTE est actuellement dans sa **phase backend**, construite comme une chaîne de
 
 <sub>✅ fonctionne comme prévu quand on lui fournit les bons éléments · 🟡 fonctionne, précision bornée par les modèles actuellement accessibles · 🟠 prototype · 🔴 stade initial</sub>
 
-### 🧪 Phase 1 : le test de diagnostic (Module 10)
+### Phase 1 : le test de diagnostic (Module 10)
 
 Le premier calibrage d'un radar est un test d'entrée qui ressemble à un simple questionnaire mais a des allures d'examen : idéalement passé dans l'établissement sous surveillance, l'administration choisissant étudiant par étudiant qui peut le passer. L'interrompre ou quitter l'application l'annule.
 
@@ -239,16 +239,16 @@ Ce qui se passe sous le capot :
 
 ---
 
-## 🧫 Le bac à sable de simulation
+## Le bac à sable de simulation
 
 Pour convaincre n'importe quel établissement, l'économie doit *prouver* qu'elle tient la route. Le prototype inclut donc un **bac à sable** : un simulateur qui génère des « étudiants virtuels » et fait défiler des mois de vie de campus en quelques secondes, comme test de résistance de tout le système. Le moteur a tourné jusqu'à **une année complète (365 jours simulés)**, sur plusieurs exécutions, avec des tours de rééquilibrage successifs et l'optimisation en performance de chaque étape. La dernière exécution documentée couvre **183 jours** (environ un semestre).
 
 ### De quoi il est fait
 
-- 🤖 **Des agents virtuels avec des profils comportementaux :** *spammeur*, *innovateur*, *mouton*, *régulier* et *aléatoire*, chacun avec son radar.
-- 📚 **Un pool de 3 500 actions** où piocher : des actions *routine* du quotidien, des actions *sociales* et des actions d'*innovation*, plus **200 « pièges » volontaires** qu'un système sain doit refuser : des comportements *anti-valeurs* (sabotage, manipulation), des affirmations *irréalistes* et des absurdités *rejetées en bloc*.
-- 🗄️ **Une base de données** (PostgreSQL + pgvector) à cinq tables : profils des agents, radars, pool d'actions, historique des soumissions (qui conserve les coefficients exacts appliqués à l'époque) et registre des Points.
-- ⚡ **Un moteur rapide** qui appelle les Modules 4, 5, 7 et 8, optimisés pour la vitesse (multiplication matricielle plutôt que calculs itératifs).
+- **Des agents virtuels avec des profils comportementaux :** *spammeur*, *innovateur*, *mouton*, *régulier* et *aléatoire*, chacun avec son radar.
+- **Un pool de 3 500 actions** où piocher : des actions *routine* du quotidien, des actions *sociales* et des actions d'*innovation*, plus **200 « pièges » volontaires** qu'un système sain doit refuser : des comportements *anti-valeurs* (sabotage, manipulation), des affirmations *irréalistes* et des absurdités *rejetées en bloc*.
+- **Une base de données** (PostgreSQL + pgvector) à cinq tables : profils des agents, radars, pool d'actions, historique des soumissions (qui conserve les coefficients exacts appliqués à l'époque) et registre des Points.
+- **Un moteur rapide** qui appelle les Modules 4, 5, 7 et 8, optimisés pour la vitesse (multiplication matricielle plutôt que calculs itératifs).
 
 | Un exemple du pool | Type |
 |---|---|
@@ -330,21 +330,21 @@ COTE est développé en solo, avec un budget nul, à partir de modèles locaux g
 
 ---
 
-## 🛡️ Principes directeurs
+## Principes directeurs
 
 Le système suit beaucoup de choses : il doit donc être digne de confiance. Ces principes font partie de sa conception :
 
-- 🔐 **Les Points sont privés.** Le solde d'un étudiant n'est connu que de lui, avec deux exceptions étroites : une demande officielle de divulgation de l'administration, et un Privilège précis.
-- 🪙 **Les Points gagnés ne sont jamais confisqués.** Aucun prélèvement automatique ni pénalité sur les Points : ce qui est gagné est gagné.
-- ⚖️ **Présomption d'innocence.** Chacun part d'un seuil de confiance sur l'axe Éthique ; seule l'administration peut le faire bouger.
-- 🎥 **La preuve reste dans le système.** Les vidéos prises dans l'application servent uniquement à la validation, et ne sont ni partagées ni utilisées autrement.
-- 🕶️ **Profils fantômes (Shadow Profiles).** Avant d'accepter un contrat de tutorat, on ne voit qu'une vue à visibilité limitée des tendances du demandeur (progression, assiduité, points forts et faibles), sans son identité complète ni ses données privées.
-- 🏢 **Requêtes entreprises anonymisées.** Les partenaires filtrent une base de données anonymisée.
-- 🔍 **Transparence.** Les étudiants doivent pouvoir comprendre pourquoi une action a rapporté ce qu'elle a rapporté.
+- **Les Points sont privés.** Le solde d'un étudiant n'est connu que de lui, avec deux exceptions étroites : une demande officielle de divulgation de l'administration, et un Privilège précis.
+- **Les Points gagnés ne sont jamais confisqués.** Aucun prélèvement automatique ni pénalité sur les Points : ce qui est gagné est gagné.
+- **Présomption d'innocence.** Chacun part d'un seuil de confiance sur l'axe Éthique ; seule l'administration peut le faire bouger.
+- **La preuve reste dans le système.** Les vidéos prises dans l'application servent uniquement à la validation, et ne sont ni partagées ni utilisées autrement.
+- **Profils fantômes (Shadow Profiles).** Avant d'accepter un contrat de tutorat, on ne voit qu'une vue à visibilité limitée des tendances du demandeur (progression, assiduité, points forts et faibles), sans son identité complète ni ses données privées.
+- **Requêtes entreprises anonymisées.** Les partenaires filtrent une base de données anonymisée.
+- **Transparence.** Les étudiants doivent pouvoir comprendre pourquoi une action a rapporté ce qu'elle a rapporté.
 
 ---
 
-## 🔭 Démarches envisagées pour la suite
+## Démarches envisagées pour la suite
 
 Tout ce qui suit est **envisagé**, pas encore construit. Le backend passe en premier.
 
@@ -407,7 +407,7 @@ Ce dépôt est la **vitrine publique** de COTE. Il est mis à jour progressiveme
 └── simulation/        Résultats agrégés et dictionnaire de données du bac à sable
 ```
 
-## 🤝 Me contacter
+## Me contacter
 
 COTE est un projet ambitieux, pensé sur le long terme. Si le projet vous parle, que vous travailliez dans le **NLP et la similarité sémantique, l'évaluation par LLM, l'ed-tech, la gamification ou la psychométrie**, ou que vous dirigiez ou enseigniez dans un établissement qui pourrait en avoir l'usage, retours et idées sont les bienvenus. Ouvrez une issue ou lancez une discussion sur ce dépôt.
 
